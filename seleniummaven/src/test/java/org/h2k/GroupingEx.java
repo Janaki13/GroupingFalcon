@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 		@Test(groups={"regression","ui","system","US_001"})
 		public void a1()
 		{
-			
+			System.out.println("a1");
 		}
 		@Test(groups={"sanity", "ui","US_001"})
 		public void a2()
